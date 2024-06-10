@@ -1,0 +1,187 @@
+@font-face { font-family: MightySouly; src: url(MightySouly-lxggD.ttf); } 
+
+body{
+    background-image: linear-gradient(rgb(48, 218, 177),rgb(36, 84, 141),rgb(11, 38, 70));
+    background-attachment: fixed;
+    margin: 0px 200px 0px 200px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between; 
+}
+
+.Logo{
+    height: 190px;
+    align-content: center;
+}
+
+nav img {
+    width: 100%;
+    min-width: 100px;
+    height: 100%;
+    object-fit: contain;
+}
+
+.nav_Items{
+    align-content: center;
+}
+
+.nav_Items ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav_Items ul li{
+    margin-left: 42px;
+}
+
+.nav_Items ul li a {
+    font-size: 32px;
+    text-decoration: none;
+    color: white;
+    font-family: "nunito";
+    font-weight: bold;
+}
+
+.nav_Items ul li :hover{
+    color: rgb(45, 58, 173);
+}
+
+.hero-image{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("Assets/Images/Glove\ world.PNG");
+    object-fit: contain;
+    border: 11px;
+    border-style: solid;
+    border-color: white;
+    height: 700px;
+    margin: 50px 0px 0px 0px;
+    align-content: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero-text{
+    font-family: MightySouly;
+    text-align: center;
+    /* font-size: 50px; */
+    font-size: 2.5vw;
+    color: rgb(242, 226, 5);
+    text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+.button{
+    display: flex;
+    justify-content: space-around;
+    margin: 0px 150px 0px 150px;
+}
+
+.button button{
+    background-color: white;
+    border-radius: 30px;
+    border-style: none;
+    font-size: 30px;
+    font-family: "Nunito";
+    font-weight: bold;
+    padding: 10px 50px 10px 50px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+    
+}
+
+.button button:hover{
+    background-color: #EA671E;
+    color: white;
+}
+
+#highlights{
+    font-family: "Nunito";
+    color: white;
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    margin: 50px 0px 0px 0px ;
+}
+
+.highlightcontainer{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    border-radius: 58px;
+    display: flex;
+    height: auto;
+    justify-content: space-around;
+
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    object-fit: contain;
+    padding: 60px;
+    width: 40%;
+}
+
+.card img{
+    width: 100%;
+    min-width: 203px;
+    max-width: 500px;
+    height: auto;
+    object-fit: cover;
+}
+
+.cardtext{
+    color: white;
+    font-family: "nunito";
+}
+
+.cardtext h3{
+    font-size: 35px;
+    margin: 5px;
+}
+
+.cardtext p{
+    font-size: 25px;
+}
+
+.highlightcontainer button{
+    background-color: white;
+    border-radius: 30px;
+    border-style: none;
+    font-size: 20px;
+    font-family: "Nunito";
+    font-weight: bold;
+    padding: 10px 50px 10px 50px;
+}
+
+.highlightcontainer button:hover{
+    background-color: #EA671E;
+    color: white;
+}
+
+footer{
+    color: white;
+    font-family: "nunito";
+    text-align: center;
+    align-content: center;
+    font-size: 24px;
+    border-top: 1px solid white;
+    margin-top: 30px;
+    height: 200px;
+}
+.social-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+.social-list{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.social-icon {
+    max-width: 50px;
+    margin-left: 20px;
+}
