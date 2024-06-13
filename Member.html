@@ -15,7 +15,7 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-xl navbar-light">
         <!-- Navigation item container -->
-        <div class="container-fluid">
+        <div class="container-fluid navContainer">
             <!-- Logo -->
             <a href="index.html" class="navbar-brand">
                 <img src="Assets/Images/Glove World Logo.png" alt="Logo" style="width: 100px;">
@@ -85,41 +85,58 @@
         </div>
     </div>
     <!-- Highlight title -->
-    <div class="container-fluid text-center my-5 Nunito">
+    <div id="highlight_title" class="container-fluid text-center my-5 Nunito">
         <h1>Highlights</h1>
     </div>
-    <!-- Highlight items -->
-    <!-- <div id="Highlights" class="container-fluid">
-        <div class="row justify-content-around">
-            <div class="Highlight-card col-md-4">
-                <div class="mb-4 boxshadow card-img">
-                    <img src="Assets/Images/Free glove.jpg" alt="Free Glove" class="card-img-top">
+    <!-- Highlight cards -->
+    <div id="cardHolder" class="container-fluid">
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="cards">
+                    <img src="Assets/Images/Free glove.jpg" alt="Free glove">
                     <div class="card-body">
-                        <h3 class="card-text">Catch Spongebob!</h3>
-                        <p>From 15th June to 31st June Our resident sponge will be walking 
-                            around the park Snap a photo and win a brand new 
-                            Jelly-fishing net! </p>
-                        <div class="d-flex justify-content-content-between align-items-center"></div>
+                        <h3>Catch Spongebob!</h3>
+                        <p>
+                            From 15th June to 31st June
+                            Our resident sponge will be walking around the park
+                            Snap a photo and win a brand new Jelly-fishing net!
+                            <br><br>
+                            <em>~I'm ready, I'm ready, I'm ready</em>
+                        </p>
+                        <button class="btn">Learn More</button>
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
-                <div class="mb-4 boxshadow card-img">
-                    <img src="Assets/Images/1 for 1 sundae.PNG" alt="" class="card-img-top">
+
+            <div class="col-sm-6">
+                <div class="cards">
+                    <img src="Assets/Images/1 for 1 sundae.PNG" alt="Sundae">
                     <div class="card-body">
-                        <h3 class="card-text">1-for-1 Sundae!</h3>
-                        <p>EVERY WEEKEND! Bring your star best friend along and do an 
-                            impression of spongebob and his pink best friend to get a 
-                            1 for 1 deal on our signature Triple Gooble Berry at Goofy Goober's ice cream parlor! </p>
-                        <div class="d-flex justify-content-content-between align-items-center"></div>
+                        <h3>1-for-1 Sundae!</h3>
+                        <p>EVERY WEEKEND!
+                            Bring your star best friend along and do an impression of spongebob and 
+                            his pink best friend to get a 1 for 1 deal on our signature Triple Gooble Berry at 
+                            Goofy Goober's ice cream parlor! <br><br><em>~I'm a goofy goober yeah!</em>
+                        </p>
+                        <button class="btn">Learn More</button>
                     </div>
                 </div>
             </div>
         </div>
-    </div> -->
-
-    <div class="container-fluid">
-        
     </div>
+
+    <footer>
+        <div class="d-flex container-fluid">
+            <h4>www.gloveworldcoaster.com.sg</h4>
+
+            <ul class="social-list">
+                <li><a href="#"><img class="social-icon" id="fb" src="Assets/Images/facebook.png" alt=""></a></li>
+                <li><a href="#"><img class="social-icon" id="ig" src="Assets/Images/instagram(white).png" alt=""></a></li>
+                <li><a href="#"><img class="social-icon" id="yt" src="Assets/Images/youtube.png" alt=""></a></li>
+            </ul>
+        </div>
+
+
+    </footer>
 </body>
 </html>
